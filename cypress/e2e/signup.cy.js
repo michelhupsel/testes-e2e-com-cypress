@@ -11,3 +11,4 @@ describe('Sign up', () => {
     cy.contains('a', 'Create a new note').should('be.visible')
   })
 })
+

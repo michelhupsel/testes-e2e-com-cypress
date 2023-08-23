@@ -21,7 +21,6 @@ describe('Scenarios where authentication is a pre-condition', () => {
     cy.deleteNote(updatedNoteDescription)
     cy.wait('@getNotes')
   })
-
   it('successfully submits the settings form', () => {
     cy.intercept('POST', '**/prod/billing').as('paymentRequest')
 

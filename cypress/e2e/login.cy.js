@@ -3,7 +3,6 @@ describe('Login', () => {
     cy.guiLogin()
   })
 })
-
 // describe('Login', () => {
 //   it('Testa funcionalidade login', () => {
 //     cy.visit('/login')
